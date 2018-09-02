@@ -1,0 +1,18 @@
+Create Table item(
+    itemID varchar(10),
+    description varchar(100)NOT NULL,
+    unitPrice decimal(10,2)NOT NULL,
+    stock int(100)NOT NULL,
+    CONSTRAINT PRIMARY KEY(ItemID)
+);
+
+Create Table user(
+    userName varchar(60),
+    name varchar(100) NOT NULL,
+    NIC varchar(10) NOT NULL,
+    telNo varchar(13),
+    address varchar(100) NOT NULL,
+    password varchar(10) NOT NULL,
+    admin int(3) NOT NULL,
+    CONSTRAINT PRIMARY KEY(userName)
+);

@@ -1,0 +1,50 @@
+.view,body,html{
+    height:100%
+}
+.carousel{
+    height:50%
+}
+.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item
+{height:100%}@media (max-width:776px){.carousel{height:100%}}.page-footer{background-color:#929FBA}
+
+#mainContainer{
+    min-height:426px;
+}
+
+#oneitemrow{
+    background-color: #0c5460;
+    padding:10px;
+
+}
+
+#itemimage{
+
+    border: 1px solid white;
+}
+
+#tblitemdetail{
+    position: relative;
+    left: 25%;
+    width: 250px;
+}
+
+#tblitemdetail tr th{
+    color: white;
+    width: 150px;
+}
+
+#tblitemdetail tr td{
+    float: left;
+    color: white;
+}
+tfoot tr td{
+
+}
+#btnAdd{
+    text-align: center;
+}
+
+#tblitemdetail tr td input{
+    width: 25px;
+    text-align: center;
+}
